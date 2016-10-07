@@ -1,0 +1,33 @@
+{
+  "name": "shlyce",
+  "version": "0.0.0",
+  "description": "Fast view into a subarray with an Array-like interface",
+  "author": "Adam Hull <adam@hmlad.com>",
+  "keywords": [
+    "slice",
+    "array",
+    "view",
+    "golang"
+  ],
+  "main": "shlyce",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hurrymaplelad/shlyce.git"
+  },
+  "homepage": "https://github.com/hurrymaplelad/shlyce",
+  "bugs": "https://github.com/hurrymaplelad/shlyce/issues",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "jshint": "*",
+    "mocha": "^3.x.x"
+  },
+  "scripts": {
+    "test": "jshint *.js && mocha"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "eqnull": true
+  }
+}

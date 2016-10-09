@@ -11,7 +11,7 @@ class Shlyce {
     this.arr = arr;
     this.lo = lo || 0; // inclusive
     this.hi = hi || arr.length;
-    this.length = hi - lo;
+    this.length = this.hi - this.lo;
     const shlyce = new Proxy(this, {
       get: function(target, name) {
         if(/[0-9]+/.test(name)) {

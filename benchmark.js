@@ -21,7 +21,7 @@ function genN() {
 }
 
 new Benchmark.Suite()
-.add('Shylce', () => {
+.add('Shlyce', () => {
   binarySearch(shlyce, genN());
 })
 .add('[].slice', () => {

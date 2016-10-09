@@ -1,6 +1,6 @@
 {
   "name": "shlyce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast view into a subarray with an Array-like interface",
   "author": "Adam Hull <adam@hmlad.com>",
   "keywords": [

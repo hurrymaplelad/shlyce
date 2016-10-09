@@ -1,4 +1,4 @@
-Shlyce
+![Shlyce](shlyce.png)
 ==============
 
 Fast view into a subarray with an Array-like interface. Assignments to the Shlyce mutate the underlying Array.
